@@ -159,7 +159,7 @@ class _OgrenciTakipDemoState extends State<OgrenciTakipDemo> {
   Widget buildActionButton(
       {String name, Icon icon, Color color, VoidCallback onpress}) {
     return RaisedButton(
-      padding: EdgeInsets.all(15),
+      padding: EdgeInsets.all(10),
       color: color,
       child: Row(
         children: [
